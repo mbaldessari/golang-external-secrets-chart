@@ -65,18 +65,3 @@ global:
 clusterGroup:
   # -- The variable that defines when a cluster is the HUB
   isHubCluster: true
-
-# -- A few settings containing which images are being used
-# @default -- depends on the individual settings
-external-secrets:
-  image:
-    # -- Tag for the ESO main image
-    tag: v0.10.2-ubi
-  webhook:
-    image:
-    # -- Tag for the ESO webhook image
-      tag: v0.10.2-ubi
-  certController:
-    image:
-    # -- Tag for the ESO certController image
-      tag: v0.10.2-ubi
