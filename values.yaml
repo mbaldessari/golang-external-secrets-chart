@@ -6,6 +6,9 @@ golangExternalSecrets:
     # -- The name of the vault role when connecting to the vault from the hub
     rolename: "hub-role"
 
+  aws:
+    region: eu-west-3
+
   # -- Settings relevant when using the kubernetes backend
   # @default -- depends on the individual settings
   kubernetes:
